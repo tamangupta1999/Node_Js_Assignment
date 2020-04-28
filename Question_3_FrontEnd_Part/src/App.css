@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+.App ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: brown;
+  font-size: 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid burlywood;
+  padding-bottom: 1rem;
+}
+.App ul li {
+  padding: 1rem 2rem;
+  border: 1.5px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 12px;
+}
+.App ul li:hover {
+  color: black;
+  border: 1.5px solid burlywood;
+}
+.App div {
+  padding-top: 2rem;
+}
