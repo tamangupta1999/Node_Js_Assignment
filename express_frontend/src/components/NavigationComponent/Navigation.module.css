@@ -1,0 +1,17 @@
+.Navigation ul {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background: brown;
+    color: white;
+    padding : 1rem;
+}
+.Navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+.Navigation ul li a:hover {
+    color:black;
+} 
