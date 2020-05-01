@@ -1,0 +1,27 @@
+.UserForm form{
+    display: flex;
+    flex-direction: column;
+}
+.UserForm label {
+    text-align: start;
+    padding-bottom: 0.5rem;
+}
+.UserForm input {
+    margin-bottom: 1rem;
+    padding:0.5rem;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid brown;
+}
+.SubmitBtn {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: green;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    font-style: initial;
+    border: none;
+}
